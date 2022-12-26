@@ -1,12 +1,19 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "1.0.0",
 
   "name": "nsAdBlocker",
   "description": "Simple ad blocker",
 
-  "browser_action": {
-    "default_popup": "index.html"
-  },
-  "permissions": ["tabs"]
+  "content_scripts": [{
+    "matches": [
+      "*://*.onlinekhabar.com/*",
+      "https://*.nytimes.com/*"
+    ],
+    "all_frames": true,
+    "css": ["style.css"],
+    "js": ["app.js"]
+  }],
+
+  "permissions": ["activeTab", "tabs"]
 }
