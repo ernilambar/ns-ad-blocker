@@ -7,6 +7,13 @@
 
   "content_scripts": [{
     "matches": [
+      "*://*.baahrakhari.com/*",
+      "*://*.bizmandu.com/*",
+      "*://*.bizpati.com/*",
+      "*://*.bizshala.com/*",
+      "*://*.ekantipur.com/*",
+      "*://*.setopati.com/*",
+      "*://*.sharesansar.com/*",
       "*://*.onlinekhabar.com/*",
       "https://*.nytimes.com/*"
     ],
