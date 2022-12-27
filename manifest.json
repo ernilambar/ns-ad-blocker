@@ -7,15 +7,19 @@
 
   "content_scripts": [{
     "matches": [
+      "*://*.arthasarokar.com/*",
       "*://*.baahrakhari.com/*",
       "*://*.bizmandu.com/*",
       "*://*.bizpati.com/*",
       "*://*.bizshala.com/*",
       "*://*.ekantipur.com/*",
-      "*://*.setopati.com/*",
-      "*://*.sharesansar.com/*",
+      "*://*.merolagani.com/*",
+      "*://*.nepalnews.com/*",
       "*://*.onlinekhabar.com/*",
-      "https://*.nytimes.com/*"
+      "*://*.pahilopost.com/*",
+      "*://*.ratopati.com/*",
+      "*://*.sharesansar.com/*",
+      "*://*.setopati.com/*"
     ],
     "all_frames": true,
     "css": ["style.css"],
